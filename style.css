@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --header-height: 100px;
+  --main-padding: 10px;
+  --footer-height: 100px;
+}
+
+main {
+  min-height: calc(
+    100vh - var(--header-height) - var(--footer-height) -
+      (var(--main-padding) * 2)
+  );
+  background-color: aqua;
+  padding: 10px;
+}
+
+header {
+  height: 100px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer {
+  height: 100px;
+  background-color: orange;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+}
+
+section {
+  background-color: rgb(255, 225, 0);
+  margin: 10px;
+  padding: 10px;
+}
