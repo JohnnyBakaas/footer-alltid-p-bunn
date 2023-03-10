@@ -15,11 +15,11 @@ main {
       (var(--main-padding) * 2)
   );
   background-color: aqua;
-  padding: 10px;
+  padding: var(--main-padding);
 }
 
 header {
-  height: 100px;
+  height: var(--header-height);
   background-color: red;
   display: flex;
   align-items: center;
@@ -27,7 +27,7 @@ header {
 }
 
 footer {
-  height: 100px;
+  height: var(--footer-height);
   background-color: orange;
 }
 
